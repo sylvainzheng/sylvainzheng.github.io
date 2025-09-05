@@ -85,7 +85,7 @@ body {
   text-align: left;
   gap: 1vw;
   font-size: 6vw;
-  border-top: 2px solid rgb(245, 245, 232);
+  border-top: 5px solid rgb(245, 245, 232);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   color:rgb(245, 245, 232);
@@ -100,7 +100,7 @@ body {
 }
 
 .item:nth-child(1) {
-  border-top: 2px solid rgb(245, 245, 232);
+  border-top: 0.12cap solid rgb(245, 245, 232);
 }
 
 .img {
@@ -142,6 +142,7 @@ img {
   font-weight: bold;
   color:#000000;
   background-color: rgb(245, 245, 232);
+  border-radius: 5px;
 }
 
 #contact-button:hover {
@@ -307,5 +308,9 @@ img {
 .contact-link {
   text-decoration: underline rgb(245, 245, 232);
   color:rgb(245, 245, 232);
+  border-radius: 5px;
 }
 
+.main-contact {
+  text-align: center;
+}
