@@ -5,7 +5,7 @@ const projectDetails = document.getElementById("projectDetails");
 const carouselInner = document.getElementById("carouselInner");
 const projectDescription = document.getElementById("projectDescription");
 
-// Project data JSON
+// Project data JSON as JS object
 const galleries = {
     1: {
     images: [

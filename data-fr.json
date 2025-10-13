@@ -1,0 +1,73 @@
+{
+  "1": {
+    "images": [
+      "img/map-1.jpg",
+      "img/map-2.jpg",
+      "img/map-3.jpg",
+      "img/map-3gif.gif",
+      "img/map-4.gif",
+      "img/map-5.jpg",
+      "img/map-6.png"
+    ],
+    "details": {
+      "type": "Festival de musique",
+      "tools": "InDesign, Illustrator, Photoshop, Illustration",
+      "description": "Campagne pour Mai au Parc 2024, festival de musique à Genève. Des visuels modulables dessinés à la main ont été créés pour cette campagne inspirée par l'énergie du festival, qui prône le rythme, la diversité et la bonne humeur."
+    }
+  },
+  "2": {
+    "images": [
+      "img/wso-1.jpg",
+      "img/wso-2.jpg",
+      "img/wso-3.jpg",
+      "img/wso-4.jpg",
+      "img/wso-6.jpg"
+    ],
+    "details": {
+      "type": "Identité visuelle, Mise en page",
+      "tools": "Illustrator, InDesign",
+      "description": "L'Orchestre Symphonique Willoughby (WSO) de Sydney a commandé une nouvelle identité visuelle pour le lancement de sa saison. Ce projet a donné lieu à la création d'une bibliothèque de formes sur mesure, épurée, polyvalente et inspirée des formes dynamiques du mouvement cubiste, afin d'assurer flexibilité et cohérence pour les communications futures. Ce projet a été réalisé en collaboration avec Alphabet Studio, une agence de création de premier plan disposant de studios à Sydney et à Londres."
+    }
+  },
+  "3": {
+    "images": [
+      "img/fdnf-1.jpg",
+      "img/fdnf-2.jpg",
+      "img/fdnf-3.jpg",
+      "img/fdnf-4.jpg",
+      "img/fdnf-5.jpg",
+      "img/fdnf-6.jpg"
+    ],
+    "details": {
+      "type": "Création de logo",
+      "tools": "Illustrator",
+      "description": "FdnF (Frères de nos frères) is a non-profit organization that addresses the needs of vulnerable populations by collaborating with local organizations. The organization works primarily in the areas of sustainable agriculture, ecology, and education in 28 different countries across Asia, Africa, and South America. For the association's 60th anniversary, the organization requested a redesign of its logo to better reflect its values."
+    }
+  },
+  "4": {
+    "images": [
+      "img/shimmer-1.jpg",
+      "img/shimmer-2.jpg",
+      "img/shimmer-3.jpg",
+      "img/shimmer-4.jpg"
+    ],
+    "details": {
+      "type": "Packaging",
+      "tools": "Illustrator, InDesign",
+      "description": "Shimmer is a natural ogm-free brand that delivers healthy and nutritious energy bars. Each bar comes with a mix of three different ingredients that give an unique taste. The objective was to deliver a clean and pure design that reflects those values."
+    }
+  },
+  "5": {
+    "images": [
+      "img/mooc-fle-1.jpg",
+      "img/mooc-fle-2.jpg",
+      "img/mooc-fle-3.jpg",
+      "img/mooc-fle-4.jpg"
+    ],
+    "details": {
+      "type": "Identité visuelle",
+      "tools": "Photoshop, Illustrator, Premiere Pro",
+      "description": "The FLE (Français Langue Étrangère) MOOC is a course that aims to support worldwide french teachers by offering a course on learning different teaching perspectives. It is born from a collaboration between the University of Geneva and the OIF (Organisation Internationale de la Francophonie)."
+    }
+  }
+}
