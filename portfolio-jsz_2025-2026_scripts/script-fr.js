@@ -5,6 +5,16 @@ const projectDetails = document.getElementById("projectDetails");
 const carouselInner = document.getElementById("carouselInner");
 const projectDescription = document.getElementById("projectDescription");
 
+// Page lang
+document.getElementById('language').addEventListener('change', function() {
+const lang = this.value;
+if (lang === 'fr') {
+    window.location.href = 'index-fr.html';
+} else {
+    window.location.href = 'index.html';
+}
+});
+
 // Project data JSON as JS object
 const galleries = {
     1: {
@@ -18,9 +28,9 @@ const galleries = {
         "img/map-6.png"
     ],
     details: {
-        type: "Campaign",
+        type: "Campagne pour un festival de musique",
         tools: "InDesign, Illustrator, Photoshop, Illustration",
-        description: "Campaign for Mai au Parc 2024, a music festival in Geneva. Hand-drawn modulable visuals were made for this campaign inspired by the energy of the festival which encourages rythm, diversity and good vibes."
+        description: "Campagne pour Mai au Parc 2024, festival de musique à Genève. Des visuels modulables dessinés à la main ont été créés pour cette campagne, inspirée par l'énergie du festival, qui prône le rythme, la diversité et la bonne humeur."
     }
     },
     2: {
@@ -32,9 +42,9 @@ const galleries = {
         "img/wso-6.jpg"
     ],
     details: {
-        type: "Visual identity, Editorial",
+        type: "Identité visuelle, Brochure",
         tools: "Illustrator, InDesign",
-        description: "The Willoughby Symphony Orchestra (WSO) of Sydney commissioned a new visual identity to launch their season. This resulted in the creation of a custom-built shape library—clean, versatile, and inspired by the dynamic forms of the Cubist movement—created to ensure flexibility and cohesion across future communications. This project was realized in collaboration with Alphabet Studio, a leading creative agency with studios in Sydney and London."
+        description: "L'Orchestre Symphonique Willoughby (WSO) de Sydney a mandaté une nouvelle identité visuelle pour le lancement de sa saison. Ce projet a donné lieu à la création d'une bibliothèque de formes sur mesure, épurée, polyvalente et inspirée des formes dynamiques du mouvement cubiste, afin d'assurer flexibilité et cohérence pour les communications futures. Ce projet a été réalisé en collaboration avec Alphabet Studio, une agence de graphisme basée à Sydney et à Londres."
     }
     },
     3: {
@@ -47,9 +57,9 @@ const galleries = {
         "img/fdnf-6.jpg"
     ],
     details: {
-        type: "Logo design",
+        type: "Création de logo",
         tools: "Illustrator",
-        description: "FdnF (Frères de nos frères) is a non-profit organization that addresses the needs of vulnerable populations by collaborating with local organizations. The organization works primarily in the areas of sustainable agriculture, ecology, and education in 28 different countries across Asia, Africa, and South America. For the association's 60th anniversary, the organization requested a redesign of its logo to better reflect its values."
+        description: "FdnF (Frères de nos frères) est une organisation à but non lucratif qui répond aux besoins des populations vulnérables en collaborant avec des organisations locales. Elle œuvre principalement dans les domaines de l'agriculture durable, de l'écologie et de l'éducation dans 28 pays d'Asie, d'Afrique et d'Amérique du Sud. À l'occasion de son 60ème anniversaire, l'association a souhaité repenser son logo afin de mieux refléter ses valeurs."
     }
     },
     4: {
@@ -60,9 +70,9 @@ const galleries = {
         "img/shimmer-4.jpg"
     ],
     details: {
-        type: "Packaging",
+        type: "Emballage, design de produit",
         tools: "Illustrator, InDesign",
-        description: "Shimmer is a natural ogm-free brand that delivers healthy and nutritious energy bars. Each bar comes with a mix of three different ingredients that give an unique taste. The objective was to deliver a clean and pure design that reflects those values."
+        description: "Shimmer est une marque naturelle sans OGM proposant des barres énergétiques saines et nutritives. Chaque barre est composée d'un mélange de trois ingrédients différents pour un goût unique. L'objectif était de proposer un design épuré et pur, reflétant ces valeurs."
     }
     },
     5: {
@@ -73,9 +83,9 @@ const galleries = {
         "img/mooc-fle-4.jpg"
     ],
     details: {
-        type: "Visual identity",
+        type: "Identité visuelle",
         tools: "Photoshop, Illustrator, Premiere Pro",
-        description: "The FLE (Français Langue Étrangère) MOOC is a course that aims to support worldwide french teachers by offering a course on learning different teaching perspectives. It is born from a collaboration between the University of Geneva and the OIF (Organisation Internationale de la Francophonie)."
+        description: "Le MOOC FLE (Français Langue Étrangère) est une formation destinée à accompagner les enseignants de français du monde entier en leur proposant un apprentissage de différentes approches pédagogiques. Il est né d'une collaboration entre l'Université de Genève et l'OIF (Organisation Internationale de la Francophonie)."
     }
     }
 };
@@ -112,7 +122,7 @@ projects.forEach(project => {
         <p class="mb-0">${gallery.details.type}</p>
         </div>
         <div class="col-md-4">
-        <h6 class="text-muted">TOOLS</h6>
+        <h6 class="text-muted">OUTILS</h6>
         <p class="mb-0">${gallery.details.tools}</p>
         </div>
         <div class="col-md-4">
