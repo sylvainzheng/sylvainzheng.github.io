@@ -3,6 +3,7 @@ body {
       color: rgba(255, 255, 255, 1);
       font-family: "Martian Mono", monospace;
       overflow-x: hidden;
+      overflow-y: visible;
       scroll-behavior: smooth; /**/
     }
 
@@ -65,8 +66,28 @@ body {
       width: 1px;
       background-color: #ddd;
     }
-    
+
+    /* LANDING PAGE */
+    #home-top-section {
+      position:sticky;
+      top: 0;
+      z-index: -100;
+      background-color: transparent;
+    }
+
+    /* INTRO SECTION */
+    #intro-section {
+      position: sticky;
+      top: 0;
+      z-index: -100;
+      background-color: transparent;
+    }
+
     /* PROJECTS */
+    .work-section {
+      background-color: #0a0a0a;
+    }
+
     .project {
       font-size: 7rem;
       cursor: pointer;

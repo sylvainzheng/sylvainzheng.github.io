@@ -5,6 +5,17 @@ const projectDetails = document.getElementById("projectDetails");
 const carouselInner = document.getElementById("carouselInner");
 const projectDescription = document.getElementById("projectDescription");
 
+// Hero section and intro section DOM
+const LANDING_BLOCK = document.getElementById("home-top-section");
+const INTRO_BLOCK = document.getElementById("intro-section");
+// Decrease landing and intro section on scroll
+$(document).ready(function(){
+    $(window).scroll(function(){
+        $(LANDING_BLOCK).css("opacity", 1- $(window).scrollTop()/700);
+        $(INTRO_BLOCK).css("opacity", 1- $(window).scrollTop()/700);
+    })
+})
+
 // Page lang
 document.getElementById('language').addEventListener('change', function() {
 const lang = this.value;
