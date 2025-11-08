@@ -12,7 +12,7 @@ const INTRO_BLOCK = document.getElementById("intro-section");
 // Decrease landing and intro section on scroll
 $(document).ready(function(){
     $(window).scroll(function(){
-        $(LANDING_BLOCK).css("opacity", 1- $(window).scrollTop()/700);
+        $(LANDING_BLOCK).css("opacity", 1- $(window).scrollTop()/(700*2);
         $(INTRO_BLOCK).css("opacity", 1- $(window).scrollTop()/700);
     })
 })
