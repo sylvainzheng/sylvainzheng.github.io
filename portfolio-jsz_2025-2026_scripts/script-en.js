@@ -30,75 +30,88 @@ if (lang === 'fr') {
 // Project data JSON as JS object
 const galleries = {
     1: {
-    images: [
-        "img/map-1.jpg",
-        "img/map-2.jpg",
-        "img/map-3.jpg",
-        "img/map-3gif.gif",
-        "img/map-4.gif",
-        "img/map-5.jpg",
-        "img/map-6.png"
-    ],
-    details: {
-        type: "Campaign for a music festival",
-        tools: "InDesign, Illustrator, Photoshop, Illustration",
-        description: "Campaign for Mai au Parc 2024, a music festival in Geneva. Hand-drawn modulable visuals were made for this campaign inspired by the energy of the festival which encourages rythm, diversity and good vibes."
-    }
-    },
+        images: [
+            "img/map-1.jpg",
+            "img/map-2.jpg",
+            "img/map-3.jpg",
+            "img/map-3gif.gif",
+            "img/map-4.gif",
+            "img/map-5.jpg",
+            "img/map-6.png"
+        ],
+        details: {
+            type: "Campaign for a music festival",
+            tools: "InDesign, Illustrator, Photoshop, Illustration",
+            description: "Campaign for Mai au Parc 2024, a music festival in Geneva. Hand-drawn modulable visuals were made for this campaign inspired by the energy of the festival which encourages rythm, diversity and good vibes."
+        }
+        },
     2: {
-    images: [
-        "img/wso-1.jpg",
-        "img/wso-2.jpg",
-        "img/wso-3.jpg",
-        "img/wso-4.jpg",
-        "img/wso-6.jpg"
-    ],
-    details: {
-        type: "Visual identity, Print",
-        tools: "Illustrator, InDesign",
-        description: "The Willoughby Symphony Orchestra (WSO) of Sydney commissioned a new visual identity to launch their season. This resulted in the creation of a custom-built shape library—clean, versatile, and inspired by the dynamic forms of the Cubist movement—created to ensure flexibility and cohesion across future communications. This project was realized in collaboration with Alphabet Studio, a leading creative agency with studios in Sydney and London."
-    }
+        images: [
+            "img/wso-1.jpg",
+            "img/wso-2.jpg",
+            "img/wso-3.jpg",
+            "img/wso-4.jpg",
+            "img/wso-6.jpg"
+        ],
+        details: {
+            type: "Visual identity, Print",
+            tools: "Illustrator, InDesign",
+            description: "The Willoughby Symphony Orchestra (WSO) of Sydney commissioned a new visual identity to launch their season. This resulted in the creation of a custom-built shape library—clean, versatile, and inspired by the dynamic forms of the Cubist movement—created to ensure flexibility and cohesion across future communications. This project was realized in collaboration with Alphabet Studio, a leading creative agency with studios in Sydney and London."
+        }
     },
     3: {
-    images: [
-        "img/fdnf-1.jpg",
-        "img/fdnf-2.jpg",
-        "img/fdnf-3.jpg",
-        "img/fdnf-4.jpg",
-        "img/fdnf-5.jpg",
-        "img/fdnf-6.jpg"
-    ],
-    details: {
-        type: "Logo design for a charity organization",
-        tools: "Illustrator",
-        description: "FdnF (Frères de nos frères) is a non-profit organization that addresses the needs of vulnerable populations by collaborating with local organizations. The organization works primarily in the areas of sustainable agriculture, ecology, and education in 28 different countries across Asia, Africa, and South America. For the association's 60th anniversary, the organization requested a redesign of its logo to better reflect its values."
-    }
+        images: [
+            "img/fdnf-1.jpg",
+            "img/fdnf-2.jpg",
+            "img/fdnf-3.jpg",
+            "img/fdnf-4.jpg",
+            "img/fdnf-5.jpg",
+            "img/fdnf-6.jpg"
+        ],
+        details: {
+            type: "Logo design for a charity organization",
+            tools: "Illustrator",
+            description: "FdnF (Frères de nos frères) is a non-profit organization that addresses the needs of vulnerable populations by collaborating with local organizations. The organization works primarily in the areas of sustainable agriculture, ecology, and education in 28 different countries across Asia, Africa, and South America. For the association's 60th anniversary, the organization requested a redesign of its logo to better reflect its values."
+        }
     },
     4: {
-    images: [
-        "img/shimmer-1.jpg",
-        "img/shimmer-2.jpg",
-        "img/shimmer-3.jpg",
-        "img/shimmer-4.jpg"
-    ],
-    details: {
-        type: "Packaging, product design",
-        tools: "Illustrator, InDesign",
-        description: "Shimmer is a natural ogm-free brand that delivers healthy and nutritious energy bars. Each bar comes with a mix of three different ingredients that give an unique taste. The objective was to deliver a clean and pure design that reflects those values."
-    }
+        images: [
+            "img/shimmer-1.jpg",
+            "img/shimmer-2.jpg",
+            "img/shimmer-3.jpg",
+            "img/shimmer-4.jpg"
+        ],
+        details: {
+            type: "Packaging, product design",
+            tools: "Illustrator, InDesign",
+            description: "Shimmer is a natural ogm-free brand that delivers healthy and nutritious energy bars. Each bar comes with a mix of three different ingredients that give an unique taste. The objective was to deliver a clean and pure design that reflects those values."
+        }
     },
     5: {
-    images: [
-        "img/mooc-fle-1.jpg",
-        "img/mooc-fle-2.jpg",
-        "img/mooc-fle-3.jpg",
-        "img/mooc-fle-4.jpg"
-    ],
-    details: {
-        type: "Visual identity",
-        tools: "Photoshop, Illustrator, Premiere Pro",
-        description: "The FLE (Français Langue Étrangère) MOOC is a course that aims to support worldwide french teachers by offering a course on learning different teaching perspectives. It is born from a collaboration between the University of Geneva and the OIF (Organisation Internationale de la Francophonie)."
-    }
+        images: [
+            "img/mooc-fle-1.jpg",
+            "img/mooc-fle-2.jpg",
+            "img/mooc-fle-3.jpg",
+            "img/mooc-fle-4.jpg"
+        ],
+        details: {
+            type: "Visual identity",
+            tools: "Photoshop, Illustrator, Premiere Pro",
+            description: "The FLE (Français Langue Étrangère) MOOC is a course that aims to support worldwide french teachers by offering a course on learning different teaching perspectives. It is born from a collaboration between the University of Geneva and the OIF (Organisation Internationale de la Francophonie)."
+        }
+    },
+    6: {
+        images: [
+            "img/louwu-1.jpg",
+            "img/louwu-2.jpg",
+            "img/louwu-3.jpg",
+            "img/louwu-4.jpg"
+        ],
+        details: {
+            type: "Packaging",
+            tools: "Photoshop, Illustrator, Blender",
+            description: "Louwu is a tea brand inspired from the region of Hubei, China. It offers a calm and yet strong flavour to be enjoyed in a rainy day. The texture used for its packaging reflects the morning fog emaning from the Yangtze river."
+        }
     }
 };
 
