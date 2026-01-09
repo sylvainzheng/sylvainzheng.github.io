@@ -113,6 +113,21 @@ const galleries = {
             tools: "Photoshop, Illustrator, Blender",
             description: "Louwu is a tea brand inspired from the region of Hubei, China. It offers a calm and yet strong flavour to be enjoyed in a rainy day. The texture used for its packaging reflects the morning fog emaning from the Yangtze river."
         }
+    },
+    7: {
+        images: [
+            "img/ndb-1.jpg",
+            "img/ndb-2.jpg",
+            "img/ndb-3.jpg",
+            "img/ndb-4.jpg",
+            "img/ndb-5.jpg",
+            "img/ndb-6.jpg"
+        ],
+        details: {
+            type: "Visual identity",
+            tools: "Photoshop, InDesign, AfterEffects, Collage",
+            description: "CFC diploma project on the theme of the Night of the Libraries, this work consisted of creating a visual identity for a nighttime event centered around 5 libraries in Geneva."
+        }
     }
 };
 

@@ -112,6 +112,21 @@ const galleries = {
             tools: "Photoshop, Illustrator, Blender",
             description: "Louwu est une marque de thé inspirée de la région du Hubei, en Chine. Elle offre une saveur à la fois douce et intense, idéale pour les jours de pluie. La texture de son emballage évoque le brouillard matinal qui se dégage du fleuve Yangtze."
         }
+    },
+    7: {
+        images: [
+            "img/ndb-1.jpg",
+            "img/ndb-2.jpg",
+            "img/ndb-3.jpg",
+            "img/ndb-4.jpg",
+            "img/ndb-5.jpg",
+            "img/ndb-6.jpg"
+        ],
+        details: {
+            type: "Identité visuelle",
+            tools: "Photoshop, InDesign, AfterEffects, Collage",
+            description: "Travail de diplôme CFC sur le thème de la Nuit des Bibliothèques, ce travail consistait en la création d'une identité visuelle pour un événement nocturne centré autour de 5 bibliothèques sur Genève."
+        }
     }
 };
 
@@ -162,7 +177,7 @@ projects.forEach(project => {
     gallery.images.forEach(img => {
         const col = document.createElement("div");
         col.classList.add("col-md-12", "col-lg-12"); // 2 per row on md, 3 per row on lg
-        col.innerHTML = `<img src="${img}" class="img-fluid rounded shadow-sm">`;
+        col.innerHTML = `<img src="${img}" class="img-fluid rounded shadow-sm w-100 w-md-75 w-lg-50">`;
         projectImages.appendChild(col);
     });
     });
