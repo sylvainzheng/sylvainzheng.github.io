@@ -12,6 +12,10 @@ body {
       font-weight: bold;
     }
 
+    .section-title {
+      color:#6c757d;
+    }
+
     /* test text shuffle animation over
     #site-title:hover {
       color: rgba(255, 255, 111, 1);
@@ -75,13 +79,13 @@ body {
       background-color: transparent;
     }
 
-    /* INTRO SECTION */
+    /* INTRO SECTION 
     #intro-section {
-      /*position: sticky;*/
       top: 0;
       z-index: -100;
       background-color: transparent;
     }
+    */
 
     /* PROJECTS */
     .work-section {
