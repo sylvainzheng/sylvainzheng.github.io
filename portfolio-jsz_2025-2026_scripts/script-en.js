@@ -120,7 +120,8 @@ const galleries = {
             "img/mooc-fle-1.webp",
             "img/mooc-fle-2.webp",
             "img/mooc-fle-3.webp",
-            "img/mooc-fle-4.webp"
+            "img/mooc-fle-4.webp",
+            "video/mooc-fle-5.mp4"
         ],
         details: {
             type: "Visual identity",
@@ -217,13 +218,7 @@ projects.forEach(project => {
     <h6 class="text-muted">DESCRIPTION</h6>
     <p class="mb-0">${gallery.details.description}</p>
     </div>
-
-    <!--
-    <div class="col-md-12"><br></div>
-    <div class="col-md-12">
-        <img src="img/map-hover.png" class="img-fluid rounded shadow-sm">
-    </div>
-    -->
+    
     <div class="col-md-12"><br></div>
         
     <style>
@@ -306,14 +301,35 @@ projects.forEach(project => {
     </div>
     `;
 
-    // Image grid
+    // Image & video grid
     const projectImages = document.getElementById("projectImages");
     projectImages.innerHTML = "";
-    gallery.images.forEach(img => {
-        const col = document.createElement("div");
-        col.classList.add("col-md-12", "col-lg-12"); // 2 per row on md, 3 per row on lg
-        col.innerHTML = `<img src="${img}" class="img-fluid rounded shadow-sm">`;
-        projectImages.appendChild(col);
+
+    gallery.images.forEach(src => {
+    const col = document.createElement("div");
+    col.classList.add("col-md-12", "col-lg-12");
+
+    // Check if it's a video
+    if (src.match(/\.(mp4|webm|ogg)$/i)) {
+        const video = document.createElement("video");
+        video.src = src;
+        video.classList.add("img-fluid", "rounded", "shadow-sm");
+        video.autoplay = true;
+        video.loop = true;
+        video.muted = true;
+        video.playsInline = true;
+
+        col.appendChild(video);
+    } else {
+        const img = document.createElement("img");
+        img.src = src;
+        img.classList.add("img-fluid", "rounded", "shadow-sm");
+
+        col.appendChild(img);
+    }
+
+    projectImages.appendChild(col);
     });
+
     });
 });
